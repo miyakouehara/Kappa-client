@@ -2,7 +2,7 @@
 <h1 align="center">wssProtocol client</h1>
 <h3 align="center">Works as a virtual web browser runned within your web browser</h3>
 <h1 align="center">Dependencies</h1>
-<h3 align="center">Requires a <a href="https://github.com/yotsubabeat/wssprotocol>wssProtocol</a> server to properly run</h3>
+<h3 align="center">Requires a <a href="https://github.com/yotsubabeat/wssprotocol">wssProtocol</a> server to properly run</h3>
 
 <h1 align="center">Benefits</h1>
 <h3 align="center">With the use of <a href="https://github.com/yotsubabeat/wssprotocol-client">wssProtocol client</a>, the protocol can be runned with the use of a plain HTML document runned on any browser,
