@@ -11,4 +11,4 @@ You will not need to install/download anything else but the <a href="https://git
 <h3 align="center">The <code>index.html</code> file is the only required file to be downloaded and runned by your web browser</h3>
 
 <h1 align="center">Configuration</h1>
-<h3 align="center">Navigate to <code>wss = "wss://(WSSPROTOCOL-SERVER-DOMAIN)/(WSSPROTOCOL-SERVER-PORT)"</code> and set this to the prefered wssProtocol wss address</h3>
+<h3 align="center">Navigate to <code>wss = "wss://(WSSPROTOCOL_SERVER_DOMAIN)/(WSSPROTOCOL_SERVER_PORT)"</code> and set this to the prefered wssProtocol wss address</h3>
