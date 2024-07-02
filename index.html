@@ -1,3 +1,10 @@
 <script>
+const url = window.location.href;
+if(url.includes("?q=")) searchEngineQuery = extractUrl(url);
+function extractUrl(url) {
+    var matches = url.match(/?q=([^&]*)/);
+    return matches ? matches[1] : '';
+};
+alert(searchEngineQuery);
 </script>
 <html></html>
