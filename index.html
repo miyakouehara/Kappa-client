@@ -1,7 +1,8 @@
 <script>
+const wss = "wss://(WSS_TO_SSRWSS)/(PORT_TO_WSS)";
 const url = window.location.href;
 const iframe = document.getElementById('view');
-const ws = WebSocket('wss://yotsubabeat.github.io/3000');
+const ws = WebSocket(wss);
 ws.on('open', () => {
     ws.send('https://google.com');
 });
