@@ -1,10 +1,33 @@
 <script>
 const url = window.location.href;
-if(url.includes("?q=")) searchEngineQuery = extractUrl(url);
+const iframe = document.getElementById('view');
+const ws = WebSocket('wss://yotsubabeat.github.io/3000');
+ws.on('open', () => {
+    ws.send('https://google.com');
+});
+ws.on('message', (message) => {
+    iframe.window.location.href = message;
+});
+if(url.includes("?q=")) {
+    searchEngineQuery = extractUrl(url);
+    iframe.window.location.href = searchEngineQuery;
+}
 function extractUrl(url) {
     var matches = url.match(/?q=([^&]*)/);
     return matches ? matches[1] : '';
 };
-alert(searchEngineQuery);
 </script>
-<html></html>
+<html>
+    <iframe policy-referrer="no-referrer" id="view"></iframe>
+</html>
+<style>
+#view {
+    position: absolute;
+    margin: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
