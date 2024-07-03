@@ -5,11 +5,11 @@
 <h3 align="center">Requires a <a href="https://github.com/yotsubabeat/ssrwss-node">SSRWSS</a> node server to properly run</h3>
 
 <h1 align="center">Benefits</h1>
-<h3 align="center">With the use of <a href="https://github.com/yotsubabeat/ssrwss-client">SSRWSS client</a>, the protocol can be runned with the use of a plain HTML document runned on any browser,
+<h3 align="center">With the use of <a href="https://github.com/yotsubabeat/ssrwss-client">SSRWSS client</a>, the protocol can be runned with only the use of a plain HTML document runned on a web browser,
 You will not need to install/download anything else but the <a href="https://github.com/yotsubabeat/ssrwss-client">SSRWSS client</a>, and a proper web browser<br><br><a href="https://github.com/yotsubabeat/ssrwss-client">SSRWSS client</a> is also made to work as a search engine which you can use in your web browser by setting it in the search engine settings</h3>
 
 <h3 align="center">The <code>index.html</code> file is the only required file to be downloaded and runned by your web browser</h3>
 
 <h1 align="center">Configuration</h1>
-<h3 align="center">Navigate to <code>wss = "wss://(WSSPROTOCOL_SERVER_DOMAIN)/(WSSPROTOCOL_SERVER_PORT)"</code> and set this to the prefered wssProtocol WSS address<br><br>To use the client as a search engine in your web browser, you have to include <code>?s=(SEARCH_QUERY)</code> at the end of the file path URL as you can see in the following example</h3>
+<h3 align="center">Navigate to <code>wss = "wss://(WSSPROTOCOL_SERVER_DOMAIN)/(WSSPROTOCOL_SERVER_PORT)"</code> and define it to the prefered SSRWSS WSS address<br><br>To use the client as a search engine in your web browser, you have to include <code>?s=(SEARCH_QUERY)</code> at the end of the file path URL as you can see in the following example</h3>
 <p align="center"><img src="https://i.ibb.co/HCPnG8t/Example-1-2.png" height="300"></p>
