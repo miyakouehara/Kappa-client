@@ -10,5 +10,5 @@
 <h3 align="center">The <code><a href="https://github.com/yotsubabeat/ssrwss-client/blob/main/index.html">index.html</a></code> file is the only required file to be downloaded and runned by your web browser</h3>
 
 <h1 align="center">Configuration</h1>
-<h3 align="center">Navigate to <code>wss = "wss://(WSSPROTOCOL_SERVER_DOMAIN)/(WSSPROTOCOL_SERVER_PORT)"</code> and define it to the prefered SSRWSS WSS address<br><br>To use the client as a search engine in your web browser, you have to include <code>?s=(SEARCH_QUERY)</code> at the end of the file path URL as you can see in the following example</h3>
+<h3 align="center">Navigate to <code>wss = "wss://(WSSPROTOCOL_SERVER_DOMAIN)/(WSSPROTOCOL_SERVER_PORT)"</code> and define it to the prefered SSRWSS WSS address<br><br>To use the client as a search engine in your web browser, you have to include <code>?(SEARCH_QUERY)</code> at the end of the file path URL as you can see in the following example</h3>
 <p align="center"><img src="https://i.ibb.co/HCPnG8t/Example-1-2.png" height="300"></p>
