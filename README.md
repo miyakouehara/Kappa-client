@@ -5,7 +5,7 @@
 <h3 align="center">Requires a <a href="https://github.com/yotsubabeat/ssrwss-node">SSRWSS</a> node server to properly run</h3>
 
 <h1 align="center">Benefits</h1>
-<h3 align="center">With the use of <a href="https://github.com/yotsubabeat/ssrwss-client">SSRWSS-client</a>, the protocol can be runned with only the use of a plain HTML document file runned on a web browser, making it practiculary impossible for web restriction extensions to block you from using the internet.</h3>
+<h3 align="center">With the use of <a href="https://github.com/yotsubabeat/ssrwss-client">SSRWSS-client</a>, the protocol can be runned with only the use of a plain HTML document file runned on a web browser, making it practiculary impossible to block you from using the internet.</h3>
 
 <h3 align="center">The <code><a href="https://github.com/yotsubabeat/ssrwss-client/blob/main/index.html">index.html</a></code> file is the only required file to be downloaded and runned by your web browser</h3>
 
