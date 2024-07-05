@@ -4,14 +4,19 @@ const url = window.location.href;
 const iframe = document.getElementById('view');
 const ws = WebSocket(wss);
 ws.on('open', () => {
-    ws.send('https://google.com');
+    ws.send('google.com');
 });
 ws.on('message', (message) => {
     iframe.window.location.href = message;
 });
 if(url.includes("?q=")) {
     searchEngineQuery = extractUrl(url);
-    iframe.window.location.href = searchEngineQuery;
+    if(searchEngineQuery.includes("https://") {
+        searchEngineQuery.replace("https://","");
+    } else {
+        searchEngineQuery.replace("http://","");
+    }
+    ws.send(searchEngineQuery);
 }
 function extractUrl(url) {
     var matches = url.match(/?q=([^&]*)/);
