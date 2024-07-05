@@ -9,7 +9,7 @@ ws.on('open', () => {
 ws.on('message', (message) => {
     iframe.window.location.href = message;
 });
-if(url.includes("?q=")) {
+if(url.includes("?")) {
     searchEngineQuery = extractUrl(url);
     if(searchEngineQuery.includes("https://") {
         searchEngineQuery.replace("https://","");
@@ -19,7 +19,7 @@ if(url.includes("?q=")) {
     ws.send(searchEngineQuery);
 }
 function extractUrl(url) {
-    var matches = url.match(/?q=([^&]*)/);
+    var matches = url.match(/?([^&]*)/);
     return matches ? matches[1] : '';
 };
 </script>
